@@ -1,0 +1,27 @@
+{
+  "name": "decentralized-voting",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "compilers": {
+    "solc": {
+      "version": "0.8.20"
+    }
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^2.5.1",
+    "@truffle/contract": "^4.6.18",
+    "browserify": "^17.0.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "nodemon": "^3.1.6",
+    "web3": "^1.9.0"
+  }
+}
